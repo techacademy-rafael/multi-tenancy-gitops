@@ -10,7 +10,11 @@ spec:
   project: default
   source:
     path: 0-bootstrap/single-cluster
+<<<<<<< HEAD
     repoURL: ${GIT_BASEURL}/${GIT_ORG}/${GIT_GITOPS}
+=======
+    repoURL: https://github.com/techacademy-rafael/multi-tenancy-gitops.git
+>>>>>>> 2bd6197 (Updating git source to techacademy-rafael)
     targetRevision: master
   syncPolicy:
     automated:
